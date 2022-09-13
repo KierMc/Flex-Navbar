@@ -1,0 +1,30 @@
+.nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    color: white;
+}
+.nav-links{
+    display: flex;
+}
+.btn{
+    background-color: darkcyan;
+    color: white;
+}
+
+li{
+    display: inline;
+    color: white;
+    margin-left: 10px;
+}
+.active{
+    font-weight: bold;
+}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
