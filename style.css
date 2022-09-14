@@ -1,30 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
 .nav{
     background-color: gray;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: Arial;
 }
 
-.nav-title{
-    color: white;
-}
 .nav-links{
     display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
 }
 .btn{
     background-color: darkcyan;
-    color: white;
+    box-shadow: 3px 3px 0 black;
 }
 
-li{
-    display: inline;
-    color: white;
-    margin-left: 10px;
-}
 .active{
     font-weight: bold;
 }
 
-a:link, a:visited, a:hover, a:focus, a:active {
+a{
     text-decoration: none;
-    color: white;
 }
